@@ -27,6 +27,17 @@ Include the component file in the head of your HTML document:
 <a-entity id="environment" environment="preset: forest; skyType: none;"></a-entity>
 
 ```
+
+## Parameters
+
+| Parameter   | Default | Description |
+|-------------|---------|-------------|
+| **duration**  | 5    | The duration in seconds of the complete transition from day to night (and from night to day)|
+| **startColor**      | rgb(214, 255, 249)  | The color at the beginning of the transition|
+| **endColor**        | rgb(0, 0, 0)       | The color at the end of the transition|
+
+## Example
+
 ![](day-to-night.gif)
 
 ## Contributing
