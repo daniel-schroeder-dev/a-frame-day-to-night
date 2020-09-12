@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+    <script type="text/javascript" src="dayToNight.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity id="environment" environment="preset: forest; skyType: none;"></a-entity>
+      <a-sky day-to-night="duration: 5; startColor: rgb(210, 243, 229); endColor: rgb(128, 66, 61)" material="fog: false;"></a-sky>
+    </a-scene>
+  </body>
+</html>
